@@ -1,0 +1,63 @@
+# 应用基础配置
+ENV: "dev"  # 运行环境: dev/test/prod
+
+# 服务器配置
+SERVER:
+  HOST: "0.0.0.0"
+  PORT: 8080
+  READ_TIMEOUT: 30s
+  WRITE_TIMEOUT: 30s
+  ENABLE_SWAGGER: true
+  TRUSTED_PROXIES:
+    - "127.0.0.1"
+    - "10.0.0.0/8"
+
+# 数据库配置
+DATABASE:
+  ENABLED: true
+  DRIVER: "mysql"
+  DSN: "user:password@tcp(ip:port)/dbname?charset=utf8mb4&parseTime=True&loc=Local"
+  MAX_IDLE_CONNS: 10
+  MAX_OPEN_CONNS: 100
+  LOG_LEVEL: "warn"
+
+# Redis配置
+REDIS:
+  ENABLED: false
+  ADDR: "localhost:6379"
+  PASSWORD: ""
+  DB: 0
+
+# JWT配置
+JWT:
+  ENABLED: true
+  SECRET: "your-32-byte-long-secret-key-here-123456"
+  EXPIRE_DURATION: 72h
+  ISSUER: "myapp"
+
+# 日志配置
+LOG:
+  LEVEL: "info"
+  FORMAT: "console"
+  OUTPUT: "both"
+  MAX_SIZE: 100  # MB
+  MAX_BACKUPS: 7
+  COMPRESS: true
+  MAX_AGE: 10
+  DIR: "./logs"
+  FILENAME: "app.log"
+
+
+# 中间件配置
+MIDDLEWARE:
+  CORS:
+    ENABLED: true
+    ALLOW_ORIGINS: ["*"]
+    ALLOW_METHODS: ["GET", "POST", "PUT", "DELETE", "OPTIONS"]
+    ALLOW_HEADERS: ["Authorization", "Content-Type"]
+    EXPOSE_HEADERS: ["Content-Length"]
+    ALLOW_CREDENTIALS: true
+  RATE_LIMIT:
+    ENABLED: true
+    RPS: 100.0  # 每秒请求数
+    BURST: 50   # 突发流量
