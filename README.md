@@ -31,14 +31,17 @@ TurboGin 是一个基于 Gin + GORM + Wire + Viper 的高性能 Go 后端开发�
 git clone https://github.com/coder/TurboGin.git
 cd TurboGin
 
+# 2. 安装执行器turbo
+go install github.com/mjcode-max/TurboGin/cmd/turbo
+
 # 2. 初始化项目
-make init
+turbo init
 
 # 3. 编辑配置文件
 vi config.yaml
 
 # 4. 运行项目
-make run
+turbo run
 ```
 
 ### 测试运行
