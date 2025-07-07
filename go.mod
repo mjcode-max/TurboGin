@@ -1,4 +1,4 @@
-module TurboGin
+module github.com/mjcode-max/TurboGin
 
 go 1.24
 
