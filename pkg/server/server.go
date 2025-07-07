@@ -1,12 +1,12 @@
 package server
 
 import (
-	"TurboGin/config"
-	"TurboGin/internal/controller"
-	"TurboGin/pkg/logger"
-	"TurboGin/pkg/middleware"
 	"context"
 	"fmt"
+	"github.com/mjcode-max/TurboGin/config"
+	"github.com/mjcode-max/TurboGin/internal/controller"
+	"github.com/mjcode-max/TurboGin/pkg/logger"
+	"github.com/mjcode-max/TurboGin/pkg/middleware"
 	"net/http"
 	"os"
 	"os/signal"

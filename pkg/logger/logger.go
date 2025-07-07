@@ -1,8 +1,8 @@
 package logger
 
 import (
-	"TurboGin/config"
 	"fmt"
+	"github.com/mjcode-max/TurboGin/config"
 	"os"
 	"path/filepath"
 	"sync"

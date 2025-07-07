@@ -7,17 +7,17 @@
 package wire
 
 import (
-	"TurboGin/config"
-	"TurboGin/internal/controller"
-	"TurboGin/internal/dao"
-	"TurboGin/internal/router"
-	"TurboGin/internal/service"
-	"TurboGin/pkg/db"
-	"TurboGin/pkg/logger"
-	"TurboGin/pkg/middleware"
-	"TurboGin/pkg/redis"
-	"TurboGin/pkg/server"
 	"github.com/google/wire"
+	"github.com/mjcode-max/TurboGin/config"
+	"github.com/mjcode-max/TurboGin/internal/controller"
+	"github.com/mjcode-max/TurboGin/internal/dao"
+	"github.com/mjcode-max/TurboGin/internal/router"
+	"github.com/mjcode-max/TurboGin/internal/service"
+	"github.com/mjcode-max/TurboGin/pkg/db"
+	"github.com/mjcode-max/TurboGin/pkg/logger"
+	"github.com/mjcode-max/TurboGin/pkg/middleware"
+	"github.com/mjcode-max/TurboGin/pkg/redis"
+	"github.com/mjcode-max/TurboGin/pkg/server"
 )
 
 // Injectors from wire.go:

@@ -1,7 +1,7 @@
 package dao
 
 import (
-	"TurboGin/internal/model"
+	"github.com/mjcode-max/TurboGin/internal/model"
 	"gorm.io/gorm"
 )
 

@@ -1,10 +1,10 @@
 package service
 
 import (
-	"TurboGin/internal/dao"
-	"TurboGin/internal/model"
-	"TurboGin/pkg/logger"
-	"TurboGin/pkg/redis"
+	"github.com/mjcode-max/TurboGin/internal/dao"
+	"github.com/mjcode-max/TurboGin/internal/model"
+	"github.com/mjcode-max/TurboGin/pkg/logger"
+	"github.com/mjcode-max/TurboGin/pkg/redis"
 )
 
 type IUserService interface {

@@ -1,8 +1,8 @@
 package middleware
 
 import (
-	"TurboGin/config"
 	"github.com/gin-gonic/gin"
+	"github.com/mjcode-max/TurboGin/config"
 	"golang.org/x/time/rate"
 	"net/http"
 	"sync"

@@ -1,9 +1,9 @@
 package controller
 
 import (
-	"TurboGin/internal/model"
-	"TurboGin/internal/service"
 	"github.com/gin-gonic/gin"
+	"github.com/mjcode-max/TurboGin/internal/model"
+	"github.com/mjcode-max/TurboGin/internal/service"
 	"net/http"
 	"strconv"
 )

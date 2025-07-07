@@ -1,9 +1,9 @@
 package router
 
 import (
-	"TurboGin/internal/controller"
-	"TurboGin/pkg/middleware"
 	"github.com/gin-gonic/gin"
+	"github.com/mjcode-max/TurboGin/internal/controller"
+	"github.com/mjcode-max/TurboGin/pkg/middleware"
 )
 
 func RegisterRoutes(ctl *controller.Container, auth *middleware.Auth) func(*gin.Engine) {

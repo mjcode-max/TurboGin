@@ -1,7 +1,7 @@
 package controller
 
 import (
-	"TurboGin/internal/service"
+	"github.com/mjcode-max/TurboGin/internal/service"
 )
 
 // Container 集中管理所有控制器

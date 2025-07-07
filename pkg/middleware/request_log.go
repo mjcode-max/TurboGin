@@ -1,8 +1,8 @@
 package middleware
 
 import (
-	"TurboGin/pkg/logger"
 	"github.com/gin-gonic/gin"
+	"github.com/mjcode-max/TurboGin/pkg/logger"
 	"time"
 )
 

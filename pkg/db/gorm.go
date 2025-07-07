@@ -1,8 +1,8 @@
 package db
 
 import (
-	"TurboGin/config"
 	"fmt"
+	"github.com/mjcode-max/TurboGin/config"
 	"gorm.io/driver/mysql"
 	"gorm.io/gorm"
 	"gorm.io/gorm/logger"

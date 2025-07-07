@@ -1,7 +1,7 @@
 package main
 
 import (
-	"TurboGin/internal/wire"
+	"github.com/mjcode-max/TurboGin/internal/wire"
 	"log"
 )
 

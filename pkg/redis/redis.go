@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"time"
 
-	"TurboGin/config"
-	"TurboGin/pkg/logger"
+	"github.com/mjcode-max/TurboGin/config"
+	"github.com/mjcode-max/TurboGin/pkg/logger"
 	"github.com/redis/go-redis/v9"
 )
 

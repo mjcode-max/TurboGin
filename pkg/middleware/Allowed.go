@@ -1,8 +1,8 @@
 package middleware
 
 import (
-	"TurboGin/config"
 	"github.com/gin-gonic/gin"
+	"github.com/mjcode-max/TurboGin/config"
 	"net/http"
 	"strings"
 )
